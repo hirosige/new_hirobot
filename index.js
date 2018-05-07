@@ -1,3 +1,4 @@
+require('dotenv').config()
 var Botkit = require('botkit');
 
 if (!process.env.clientId || !process.env.clientSecret || !process.env.port) {
